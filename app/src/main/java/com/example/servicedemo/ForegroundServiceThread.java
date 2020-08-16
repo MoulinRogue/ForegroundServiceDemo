@@ -59,7 +59,7 @@ public class ForegroundServiceThread extends Service {
         Intent notificationIntent = new Intent(this, MainActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
         Notification notification = new NotificationCompat.Builder(this, CHANNEL_ID)
-                .setContentTitle("In FG Service new Thread")
+                .setContentTitle("Foreground Service Demo")
                 .setContentText("In FG Service new Thread")
                 .setSmallIcon(R.drawable.ic_check_circle_24px)
                 .setContentIntent(pendingIntent)

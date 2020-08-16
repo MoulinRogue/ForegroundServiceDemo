@@ -14,11 +14,11 @@
         <service
             android:name=".ForegroundServiceThread"
             android:enabled="true"
-            android:exported="true"/>
+            android:exported="false"/>
         <service
             android:name=".ForegroundServiceMainUI"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="false" />
 
         <activity android:name=".MainActivity">
             <intent-filter>

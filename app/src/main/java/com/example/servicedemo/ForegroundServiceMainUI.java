@@ -46,7 +46,7 @@ public class ForegroundServiceMainUI extends Service {
                 0, notificationIntent, 0);
 
         Notification notification = new NotificationCompat.Builder(this, CHANNEL_ID)
-                .setContentTitle("In FG Service main UI Thread")
+                .setContentTitle("Foreground Service Demo")
                 .setContentText("In FG Service main UI Thread")
                 .setSmallIcon(R.drawable.ic_check_circle_24px)
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
